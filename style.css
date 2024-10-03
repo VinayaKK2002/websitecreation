@@ -1,0 +1,406 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Merriweather", system-ui;
+}
+
+.divnav{
+    border: solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    justify-content:space-evenly;
+     background-color: black;
+    
+ 
+}
+.list{
+    display: inline;
+    margin-right:30px; 
+   
+
+    
+}
+
+.linkitem{
+    text-decoration: none;
+    font-size: 17px;
+    color:white;
+    font-weight: 100;
+    font-family:initial;
+    margin-right:  30px;
+   
+
+    
+}
+#firsticon{
+    margin: 2px 30px 2px 40px;
+    width: 100%;
+    height: 85px;
+   
+
+}
+#check{
+    display: none;
+}
+.icons{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: azure;
+    position: absolute;
+    left: 5%;
+    display: none;
+    cursor: pointer;
+   
+
+}
+
+
+.divlist{
+    margin-left: 100px;
+    
+    height: 50px;
+    margin-top: 20px;
+    /* background-color:white; */
+    padding-top: 20px;
+    padding-left: 11px;
+   
+
+    
+}
+
+
+
+#image1{
+    width: 100%;
+    margin: 0px;
+    height: 300px;
+    
+
+}
+
+#name{
+ margin-top: 10px;
+ width: 550px;
+ height: 100px;
+ position: absolute;
+
+ text-align: center;
+padding: 100px; 
+z-index: 1;
+ color:goldenrod;
+ font-size: 50px;
+ font-family: "Playwrite CU", system-ui;
+ 
+
+}
+
+#namediv{
+    width: 100%;
+ height: 400px;
+ border: solid;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+}
+#namespan{
+    color: antiquewhite;
+     padding-top:2 px;
+     font-size:30px ;
+     
+
+}
+.img1content1{
+    width: 300px;
+    height: 350px;
+    padding: 15px 0px;
+    margin-left: 10px;
+    
+
+}
+.content1div{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+
+}
+.inner1div{
+   
+    width: 50%;
+   
+
+}
+.content1h3{
+    margin-top: 20px;
+    font-family: "Dancing Script", cursive;
+    font-size: 70px;
+    color: brown;
+    
+
+}
+.content1h31{
+    font-family: "Protest Guerrilla", system-ui;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+.content1para{
+    line-height: 1.8;
+    margin-bottom: 60px;
+    margin:0px 30px 0px 30px ;
+
+}
+.inner2div{
+    margin-left: 20px;
+
+}
+.content2div{
+   
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.cont2img{
+    width: 500px;
+    height:400px ;
+
+
+}
+#name1div{
+    width: 100%;
+ height: 400px;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+
+}
+.imagediv{
+    width: 100%;
+    height:400px ;
+    margin: 0px;
+ 
+}
+.link{
+    color: red;
+}
+.icondinneriv{
+     
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+   
+}
+.icondiv{
+    width:35px ;
+    height: 30px;
+    border:solid;
+    border-color: white;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 45px;
+    margin-left: 2px;
+    background-image: linear-gradient(to right, red , yellow);
+   
+    
+}
+.iconname{
+    margin-top: 40px;
+    width: 130px;
+    font-size: 20px;
+   
+    
+}
+#last{
+    width: 30%; 
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+}
+#lasticon{
+
+    width: 50%;
+    height: 100px;
+}
+.brands{
+    color:black;
+    font-weight: 100px;
+    font-size: 20px;
+
+}
+.brands:hover{
+    color: white;
+    animation: rotated 3s;
+}
+@keyframes rotated{
+    0%{transform: rotate(40deg);}
+    25%{transform: rotate(-40deg);}
+    50%{transform: rotate(40deg);}
+    75%{transform: rotate(-40deg);}
+    100%{transform: rotate(40deg);}
+    
+} 
+.footerdiv{
+    display: flex;
+     width: 100%;
+    height: 150px;
+    background-color:black;
+    bottom: 0px;
+    position: sticky;
+   
+
+}
+.namelabel{
+    color: white;
+    padding-top: 50px;
+   
+
+}
+#inputbord{
+    width:300px ;
+}
+.reviewdiv{
+    background-color: black;
+    width: 25%;
+    text-align: center;
+    margin-left: 50px;
+    
+
+    /* padding-left: 5px; */
+}
+.iconname{
+    color: white;
+   height: 20px;
+   padding: 20px 0px 10px 0px;
+   margin-bottom: 20px;
+  
+
+    
+}
+.uparrow{
+    right: 0px;
+    float: right;
+    margin-top: -30px;
+    
+}
+.linkitem:hover{
+    
+    color: red;
+}
+
+
+@media (min-width:761px) and  (max-width:1200px){
+  .inname{
+      font-size:20px ;
+  }  
+  .indiv{
+     
+       margin-top: 100px;
+  }
+}
+
+ @media(max-width:1200px){
+    .icons{
+        display: flex;
+        margin-top: 25px;
+    }
+    #closeicon{
+        display: none;
+    }
+    #check:checked~.icons #menuicon{
+        display: none;
+
+    }
+    #check:checked~.icons #closeicon{
+        display: flex;
+
+    }
+    #check:checked~.divlist{
+        display: block;
+        
+
+    }
+    #check:checked~.divlist{
+        display: block;
+        
+
+    }
+    
+
+    .divlist{
+        position: absolute;
+        top: 70px;
+        background-color: black;
+        width: 180px; 
+        margin-left: 0px;
+        left: 0px;
+        height: 450px;
+        display: none;
+        
+
+    }
+    .divlist a{
+        display: block;
+        text-align: center;
+        line-height: 2.5;
+    }
+    .linkitem:hover{
+        display: block;
+        color: red;
+    }
+    
+    #namediv{
+        height:460px ;
+        width: 100%;
+        
+
+    }
+
+    #name{
+        font-size:40px;
+        width: 250px;
+    }
+    #namespan{
+        font-size:20px;
+   }
+   .footerdiv{
+       margin-top: 400px;
+       width: 100%;
+   }
+   .img1content1{
+     flex-wrap: wrap;
+     flex-direction: column;
+ 
+   }
+   #name1div{
+    margin-top: 350px;
+   
+   } 
+   .imagediv{
+    margin-top: 400px; 
+
+   }
+   #discussmenu{
+    margin-top: 450px;
+   }
+   #inputbord{
+       width:130px ;
+   }
+  
+    
+    
+} 
+
+
+
